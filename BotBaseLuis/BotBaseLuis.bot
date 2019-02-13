@@ -1,0 +1,33 @@
+﻿{
+  "name": "BotBaseLuis",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "endpoint",
+      "name": "production",
+      "endpoint": "https://botpepeecho.azurewebsites.net/api/messages",
+      "appId": "ed4fc434-8026-4add-a212-4b66c318eb9d",
+      "appPassword": ")AEYw3O6RJb70r]OgmAh_uM&@:$Uj9Wb",
+      "id": "2"
+    },
+    {
+      "type": "luis",
+      "appId": "2f756946-e33c-4dca-a686-4708f6a5f1e0",
+      "authoringKey": "2095a5bb221a4b4183a2089c85b20e1b",
+      "id": "2f756946-e33c-4dca-a686-4708f6a5f1e0",
+      "name": "PepeLuisFutbol",
+      "region": "westus",
+      "subscriptionKey": "2095a5bb221a4b4183a2089c85b20e1b",
+      "version": "0.1"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
